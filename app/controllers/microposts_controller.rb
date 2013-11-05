@@ -52,6 +52,7 @@ class MicropostsController < ApplicationController
   end
 
   # DELETE /microposts/1
+  # DELETE /microposts/1
   # DELETE /microposts/1.json
   def destroy
     @micropost.destroy
